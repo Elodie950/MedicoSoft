@@ -1,0 +1,19 @@
+﻿@model DAL.Utilisateur
+
+@{
+    ViewBag.Title = "Forms";
+}
+
+<h3>Entrez votre login et votre nom d'utilisateur</h3>
+
+<form method="post" action="/Login/Forms"> 
+    <p>
+        Login : <input type="text" name="txtLogin" />
+    </p>
+    <p>
+        Mot de passe : <input type="password" name="txtPassword" />
+    </p>
+    <input type="submit" value="Se connecter" />
+</form>
+
+

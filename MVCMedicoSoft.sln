@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCMedicoSoft", "MVCMedicoSoft\MVCMedicoSoft.csproj", "{D5548C79-D652-4C52-870B-3EE7E31C18B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\MedicoSoft\DAL\DAL.csproj", "{993DBD5B-2899-4BF6-91E5-AEBF23EC0EAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D5548C79-D652-4C52-870B-3EE7E31C18B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5548C79-D652-4C52-870B-3EE7E31C18B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5548C79-D652-4C52-870B-3EE7E31C18B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{993DBD5B-2899-4BF6-91E5-AEBF23EC0EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993DBD5B-2899-4BF6-91E5-AEBF23EC0EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993DBD5B-2899-4BF6-91E5-AEBF23EC0EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993DBD5B-2899-4BF6-91E5-AEBF23EC0EAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

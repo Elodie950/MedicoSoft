@@ -40,3 +40,58 @@ input[type="checkbox"].input-validation-error {
 .validation-summary-valid {
     display: none;
 }
+h2{
+    margin: 0;     
+    color: #474539;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #D86B00;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 50px;
+}
+.bs-example{
+	margin: 20px;
+}
+.Matete {
+    width: 200px;
+}
+.droite{
+    width: 600px;
+    float: right;
+    margin-right: 30px;
+}
+.gauche{
+    width: 200px;
+    float: left;
+}
+.btn {
+    position:absolute;
+    right: 400px;
+}
+.row{
+    background-color: #A92C10;
+    margin-top : 30px;
+    padding-left: 250px;
+    padding-top : 40px;
+    padding-bottom : 40px;
+    width: 970px;
+    margin-left: 30px;
+
+}
+
+
+.profil{
+   width: 930px;
+   margin-left: 60px;
+   margin-top: 30px;
+
+}
+.clearfix {
+    clear: both;
+}
