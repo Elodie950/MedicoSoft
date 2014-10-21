@@ -109,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\saveMe\Models\" />
     <Folder Include="Views\Agenda\" />
     <Folder Include="Views\Patient\" />
   </ItemGroup>
@@ -116,6 +117,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\saveMe\Controllers\RescueController.cs" />
+    <Compile Include="Areas\saveMe\saveMeAreaRegistration.cs" />
     <Compile Include="Controllers\AgendaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
@@ -137,8 +140,18 @@
     <Content Include="images\croix_rouge.jpg" />
     <Content Include="images\dossier.jpg" />
     <Content Include="images\Elodie.jpg" />
+    <Content Include="images\skull.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\saveMe\Views\web.config" />
+    <Content Include="Areas\saveMe\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\saveMe\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\saveMe\Views\Rescue\Name.cshtml" />
+    <Content Include="Areas\saveMe\Views\Rescue\Localise.cshtml" />
+    <Content Include="Areas\saveMe\Views\Shared\_geoLocGoogleItineraire.cshtml" />
+    <Content Include="Areas\saveMe\Views\Rescue\Death.cshtml" />
+    <Content Include="Areas\saveMe\Views\Shared\_geoloc.cshtml" />
+    <Content Include="Areas\saveMe\Views\Shared\_google.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

@@ -95,3 +95,10 @@ h2{
 .clearfix {
     clear: both;
 }
+.bouton a{
+    margin-left: 400px;
+    background-color: #A92C10;
+}
+.error {
+    color: red;
+}
