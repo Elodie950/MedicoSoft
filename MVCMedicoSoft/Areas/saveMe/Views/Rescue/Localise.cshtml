@@ -13,18 +13,7 @@
         </div>
 
         @{
-            if (ViewBag.step == 1)
-            {
-                Html.RenderPartial("_geoloc");
-            }
-            if (ViewBag.step == 2)
-            {
-                Html.RenderPartial("_google");
-            }
-            else
-            {
-                Html.RenderPartial("_geoLocGoogleItineraire");
-            }
+            Html.RenderPartial("_geoLocGoogleItineraire");
         }
     </center>
 </div>

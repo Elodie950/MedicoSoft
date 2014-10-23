@@ -110,16 +110,17 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\saveMe\Models\" />
-    <Folder Include="Views\Agenda\" />
     <Folder Include="Views\Patient\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Agenda\AgendaAreaRegistration.cs" />
+    <Compile Include="Areas\Agenda\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Agenda\Models\BoiteMedecinEtPersonne.cs" />
     <Compile Include="Areas\saveMe\Controllers\RescueController.cs" />
     <Compile Include="Areas\saveMe\saveMeAreaRegistration.cs" />
-    <Compile Include="Controllers\AgendaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -128,6 +129,11 @@
     </Compile>
     <Compile Include="Models\MySession.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -152,6 +158,15 @@
     <Content Include="Areas\saveMe\Views\Rescue\Death.cshtml" />
     <Content Include="Areas\saveMe\Views\Shared\_geoloc.cshtml" />
     <Content Include="Areas\saveMe\Views\Shared\_google.cshtml" />
+    <Content Include="Areas\Agenda\Views\web.config" />
+    <Content Include="Areas\Agenda\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Agenda\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Agenda\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Agenda\Views\Shared\listePatient.cshtml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

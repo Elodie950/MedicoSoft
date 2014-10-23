@@ -19,13 +19,13 @@ namespace MVCMedicoSoft.Areas.saveMe.Controllers
         [HttpPost]
         public ActionResult Name(string num)
         {
-            ViewBag.step = 3;
             Personne p = Personne.getInfo(num);
             string NomMedecin = "";
             if (p != null)
             {
-                if (p.getReferent(out NomMedecin) != null)
+                if (p.getReferent(out NomMedecin))
                 {
+                    ViewBag.Medecin = NomMedecin;
                     return View("Localise", p);
                 }
                 else
