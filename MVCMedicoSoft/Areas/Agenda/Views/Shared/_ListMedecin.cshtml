@@ -1,0 +1,45 @@
+﻿@model IEnumerable<DAL.Medecin>
+<h3>Choisir un médecin</h3>
+<table class="table">
+    <tr>
+        <th></th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Prenom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateNaissance)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.INAMI)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <input type="radio"
+                   value="@Html.DisplayFor(modelItem=>item.INAMI)"
+                   name="rdMedecinSel" onclick="setSelMed(this)"/>
+        </td>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.Nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Prenom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateNaissance)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.INAMI)
+        </td>
+       
+    </tr>
+}
+
+</table>

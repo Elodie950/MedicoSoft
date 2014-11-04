@@ -11,12 +11,15 @@ namespace MVCMedicoSoft.Areas.Agenda.Models
         List<Personne> _lstPers;
         List<Medecin> _lstMed;
 
-        public List<Medecin>
+        public List<Medecin> LstMed
         {
+            get { return _lstMed; }
+            set { _lstMed = value; }
         }
-        
-        public List<Personne>
+        public List<Personne> LstPers
         {
+            get { return _lstPers; }
+            set { _lstPers = value; }
         }
     }
 }

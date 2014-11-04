@@ -161,8 +161,10 @@
     <Content Include="Areas\Agenda\Views\web.config" />
     <Content Include="Areas\Agenda\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Agenda\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Agenda\Views\Shared\_ListPatient.cshtml" />
     <Content Include="Areas\Agenda\Views\Home\Index.cshtml" />
-    <Content Include="Areas\Agenda\Views\Shared\listePatient.cshtml" />
+    <Content Include="Areas\Agenda\Views\Shared\_AddRdv.cshtml" />
+    <Content Include="Areas\Agenda\Views\Shared\_ListMedecin.cshtml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
